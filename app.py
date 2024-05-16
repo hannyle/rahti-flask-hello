@@ -32,7 +32,7 @@ PAGE = """
   <body>
     <h1>This is the photo gallery from {{ student }}</h1>
     <ul>{% for kitten in kittens %}
-      <li><img src='{{ kitten }}'/> {{ kitten }}</li>
+      <li><img src='https://img.freepik.com/free-psd/cloud-png-isolated-transparent-background_191095-18056.jpg?size=338&ext=jpg&ga=GA1.1.44546679.1715731200&semt=sph'/> </li>
     {% endfor %}</ul>
   </body>
 </html>
