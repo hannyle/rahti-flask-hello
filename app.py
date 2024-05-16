@@ -30,10 +30,8 @@ PAGE = """
     <style>""" + STYLE + """</style>
   </head>
   <body>
-    <h1>This is the photo gallery from {{ student }}</h1>
-    <ul>{% for kitten in kittens %}
-      <li><img src='https://img.freepik.com/free-psd/cloud-png-isolated-transparent-background_191095-18056.jpg?size=338&ext=jpg&ga=GA1.1.44546679.1715731200&semt=sph'/> </li>
-    {% endfor %}</ul>
+    <h1>This is the photo gallery from {{ student }}</h1>    
+    <img src='https://img.freepik.com/free-psd/cloud-png-isolated-transparent-background_191095-18056.jpg?size=338&ext=jpg&ga=GA1.1.44546679.1715731200&semt=sph'/> 
   </body>
 </html>
 """
