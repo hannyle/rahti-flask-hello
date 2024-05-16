@@ -31,7 +31,9 @@ PAGE = """
   </head>
   <body>
     <h1>This is the photo gallery from {{ student }}</h1>    
-    <img src='https://static.vecteezy.com/system/resources/previews/018/801/365/original/funny-cloud-cartoon-icon-png.png'/> 
+     <ul>{% for kitten in kittens %}
+      <li><img src='{{ kitten }}'/> {{ kitten }}</li>      
+    {% endfor %}</ul>
   </body>
 </html>
 """
