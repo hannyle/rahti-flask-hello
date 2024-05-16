@@ -31,7 +31,7 @@ PAGE = """
   </head>
   <body>
     <h1>This is the photo gallery from {{ student }}</h1>    
-    <img src='https://img.freepik.com/free-psd/cloud-png-isolated-transparent-background_191095-18056.jpg?size=338&ext=jpg&ga=GA1.1.44546679.1715731200&semt=sph'/> 
+    <img src='https://static.vecteezy.com/system/resources/previews/018/801/365/original/funny-cloud-cartoon-icon-png.png'/> 
   </body>
 </html>
 """
